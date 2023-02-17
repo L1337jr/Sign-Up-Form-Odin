@@ -10,7 +10,7 @@
     img {
       width: 75%;
       position: relative;
-      left: 2rem;
+      left: 3rem;
       top: 1rem;
     }
 
@@ -96,5 +96,11 @@ input {
     position: relative;
     left: 7rem;
     top: 1rem;
+}
+
+
+#submit:hover {
+    background-color: rgb(204, 204, 204);
+    color: #555;
 }
 
