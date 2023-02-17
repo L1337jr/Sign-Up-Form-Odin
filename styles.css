@@ -3,7 +3,7 @@
 @media (max-width: 768px) {
 
     .container {
-        top: 0rem !important;
+        top: 1rem !important;
         bottom: 0rem !important;
     }
 
@@ -17,7 +17,6 @@
     .text-note{
         position: relative;
         bottom: 1rem;
-        right: 1rem;
     }
 
   }
