@@ -40,7 +40,7 @@ html{
     box-shadow: 0px 0px 5px 0px black;
     width: fit-content;
     position: relative;
-    top: 8rem;
+    top: 5rem;
 }
 
 img {
@@ -63,6 +63,7 @@ img {
     width: 20rem;
     position: relative;
     left: 1rem;
+    bottom: 1rem;
 }
 
 input {
@@ -104,3 +105,9 @@ input {
     color: #555;
 }
 
+p {
+    position: relative;
+    left: 4.5rem;
+    font-size: small;
+    top: 5px;
+}
