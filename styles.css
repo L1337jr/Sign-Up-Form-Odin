@@ -1,56 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;400&family=Roboto:wght@100&display=swap');
 
+@media (max-width: 768px) {
+
+    img {
+      width: 75%;
+      position: relative;
+      left: 3rem;
+      top: 1rem;
+    }
+
+    .text-note{
+        position: relative;
+        bottom: 1rem;
+    }
+
+  }
+
 
 html{
     background-color: blueviolet;
     font-family: 'Prompt', sans-serif;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    height: 25rem;
     background-color: rgb(153, 118, 185);
-    margin: 8rem 10rem;
-    padding: 10px;
+    margin: 8vh 10vh;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 0px black;
     width: fit-content;
-
 }
 
 img {
     border-radius: 5px;
+    margin-left: 3vh;
 }
 
-.image {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-top: 7vh;
-}
+
+
 
 .text-note {
     background-color: #00000071;
     color: aliceblue;
     font-family: 'Prompt', sans-serif;
-    position: relative;
-    left: 1rem;
-    top: -1rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     border-radius: 10px;
     height: 5rem;
     width: 20rem;
+    position: relative;
+    left: 1rem;
 }
 
 input {
     width: 100%;
+    display: inline;
     height: 20px;
     padding: 6px 12px;
     font-size: 14px;
@@ -63,7 +76,6 @@ input {
 }
 
 .form {
-    position: relative;
     width: fit-content;
     margin: 3rem;
 }
@@ -77,11 +89,8 @@ input {
     color: white;
     border: white;
     border-radius: 10px;
-    overflow: hidden;
-}
-
-.submit {
     position: relative;
     left: 7rem;
-    top: 10px;
+    top: 1rem;
 }
+
