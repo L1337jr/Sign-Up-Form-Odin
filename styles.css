@@ -3,8 +3,8 @@
 @media (max-width: 768px) {
 
     .container {
-        position: absolute;
-        top: 0px;
+        top: 0rem !important;
+        bottom: 0rem !important;
     }
 
     img {
