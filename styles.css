@@ -1,139 +1,133 @@
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;400&family=Roboto:wght@100&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@200;400&family=Roboto:wght@100&display=swap");
 
 :root {
-    --background-color: blueviolet
+  --background-color: blueviolet;
 }
 
 @media (max-width: 768px) {
-
-    .container {
-        top: 1rem !important;
-        bottom: 0rem !important;
-    }
-
-    img {
-      width: 75%;
-      position: relative;
-      left: 3rem;
-      top: 1rem;
-    }
-
-    .text-note{
-        position: relative;
-        bottom: 1rem;
-    }
-
+  .container {
+    top: 0rem !important;
+    width: 100% !important;
+    height: 100% !important;
   }
 
+  img {
+    width: 75%;
+    position: relative;
+    left: 2rem;
+    top: 1rem;
+  }
 
-html{
-    background-color: blueviolet;
-    font-family: 'Prompt', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .text-note {
+    width: 100%;
+  }
+
+  input {
+    width: 90% !important;
+  }
+}
+
+html {
+  background-color: blueviolet;
+  font-family: "Prompt", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(153, 118, 185);
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px 0px black;
-    width: fit-content;
-    position: relative;
-    top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(153, 118, 185);
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px black;
+  width: fit-content;
+  position: relative;
+  top: 11vh;
 }
 
 img {
-    border-radius: 5px;
-    margin-left: 3vh;
+  border-radius: 5px;
+  margin-left: 3vh;
 }
 
-
-
-
 .text-note {
-    background-color: #00000071;
-    color: aliceblue;
-    font-family: 'Prompt', sans-serif;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 10px;
-    height: 5rem;
-    width: 20rem;
-    position: relative;
-    left: 1rem;
-    bottom: 1rem;
+  background-color: #00000071;
+  color: aliceblue;
+  font-family: "Prompt", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  height: 5rem;
+  width: 20rem;
+  position: relative;
+  left: 1rem;
+  bottom: 1rem;
 }
 
 input {
-    width: 100%;
-    display: inline;
-    height: 20px;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #555;
-    background-color: #fff;
-    background-image: none;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  width: 100%;
+  display: block;
+  height: 20px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .form {
-    width: fit-content;
-    margin: 3rem;
+  width: fit-content;
+  margin: 3rem;
 }
 
 #submit {
-    width: 8rem;
-    height: 2rem;
-    text-align: center;
-    cursor: pointer;
-    background-color: #00000071;
-    color: white;
-    border: white;
-    border-radius: 10px;
-    position: relative;
-    left: 7rem;
-    top: 1rem;
+  width: 8rem;
+  height: 2rem;
+  text-align: center;
+  cursor: pointer;
+  background-color: #00000071;
+  color: white;
+  border: white;
+  border-radius: 10px;
+  position: relative;
+  left: 7rem;
+  top: 1rem;
 }
 
-
 #submit:hover {
-    background-color: rgb(204, 204, 204);
-    color: #555;
+  background-color: rgb(204, 204, 204);
+  color: #555;
 }
 
 p {
-    position: relative;
-    left: 4.5rem;
-    font-size: small;
-    top: 5px;
+  position: relative;
+  left: 4.5rem;
+  font-size: small;
+  top: 5px;
 }
 
-
 .gif-source {
-    position: absolute;
-    left: 1rem;
-    bottom: 1rem;
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
 }
 
 a {
-    color: white;
-    text-decoration: none;
-    font-size: small;
-    transition: all 0.3s;
+  color: white;
+  text-decoration: none;
+  font-size: small;
+  transition: all 0.3s;
 }
 
-
 a:hover {
-    color: var(--background-color);
-
-
+  color: var(--background-color);
 }
